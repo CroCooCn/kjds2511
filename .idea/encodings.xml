@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/kjds2511-main/crmeb/crmeb-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kjds2511-main/crmeb/crmeb-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kjds2511-main/crmeb/crmeb-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kjds2511-main/crmeb/crmeb-front/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kjds2511-main/crmeb/crmeb-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kjds2511-main/crmeb/crmeb-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kjds2511-main/crmeb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kjds2511-main/crmeb/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
