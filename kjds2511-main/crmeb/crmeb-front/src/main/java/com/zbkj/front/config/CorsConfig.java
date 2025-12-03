@@ -18,7 +18,6 @@ import org.springframework.web.filter.CorsFilter;
  *  +----------------------------------------------------------------------
  */
 @Configuration
-
 public class CorsConfig{
     private CorsConfiguration buildConfig() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
@@ -27,7 +26,6 @@ public class CorsConfig{
         corsConfiguration.addAllowedMethod("*"); //允许任何方法
         return corsConfiguration;
     }
-
     @Bean
     public CorsFilter corsFilter() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();

@@ -10,6 +10,7 @@
 
 module.exports = {
 	productionSourceMap: true, // 生产打包时不输出map文件，增加打包速度,
+	transpileDependencies: ['@dcloudio'],
 	configureWebpack: config => {
 		if (process.env.NODE_ENV === 'production') {
 			//注释可看见打印，解开看不见

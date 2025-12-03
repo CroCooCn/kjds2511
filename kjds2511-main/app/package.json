@@ -1,5 +1,31 @@
 {
+  "name": "crmeb-uni-app",
+  "version": "2.1.0",
+  "description": "CRMEB uni-app 移動端項目",
+  "scripts": {
+    "dev:h5": "vue-cli-service serve",
+    "dev:mp-weixin": "cross-env NODE_ENV=development UNI_PLATFORM=mp-weixin vue-cli-service uni-build --watch",
+    "dev": "vue-cli-service serve",
+    "build:h5": "vue-cli-service build",
+    "build:mp-weixin": "cross-env NODE_ENV=production UNI_PLATFORM=mp-weixin vue-cli-service uni-build",
+    "build": "vue-cli-service build"
+  },
   "dependencies": {
     "mp-html": "^2.5.0"
+  },
+  "devDependencies": {
+    "@dcloudio/uni-cli-i18n": "^2.0.0-alpha-27920200613002",
+    "@dcloudio/uni-cli-shared": "^2.0.2-4080420251103001",
+    "@dcloudio/uni-h5": "^2.0.0-alpha-27920200613002",
+    "@dcloudio/uni-mp-weixin": "^2.0.0-alpha-27920200613002",
+    "@dcloudio/uni-template-compiler": "^2.0.0-alpha-27920200613002",
+    "@dcloudio/vue-cli-plugin-uni": "^2.0.2-4080420251103001",
+    "@dcloudio/webpack-uni-mp-loader": "^2.0.0-alpha-27920200613002",
+    "@dcloudio/webpack-uni-pages-loader": "^2.0.0-alpha-27920200613002",
+    "@vue/cli-service": "^4.5.19",
+    "cross-env": "^7.0.3",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.1.0",
+    "vue-template-compiler": "^2.7.16"
   }
 }

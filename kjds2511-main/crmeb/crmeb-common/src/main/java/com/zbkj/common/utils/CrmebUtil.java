@@ -113,25 +113,78 @@ public class CrmebUtil {
      * @param args String[] 字符串数组
      */
     public static void main(String[] args) throws Exception {
-//        System.out.println(encryptPassword("123456", "admin"));
-//		System.out.println(decryptPassowrd("", ""));
-
-//        String key = "123456";
-//        String data = "中国123ABCabc";
-//        System.out.println("原始数据：" + data);
-//        String encryptPassword = encryptPassword(data, key);
-//        System.out.println("加密结果：" + encryptPassword);
-//        String decryptPassowrd = decryptPassowrd(encryptPassword, key);
-//        System.out.println("解密结果：" + decryptPassowrd);
-        // 执行结果如下：
-        // 原始数据：中国123ABCabc
-        // 加密结果：5JNGj04iE/XUuTZM75zMrA==
-        // 解密结果：中国123ABCabc
-
-//        System.out.println(encryptPassword("Crmeb_123456", "18292417675"));
-        System.out.println(decryptPassowrd("c7Nwx1WsDdewbab2TlkpUg==", "18292417675"));
-        // 执行结果：f6mcpGQ8NEmwbab2TlkpUg==
-        // 与 SQL 中的数据一致
+        System.out.println("==========================================");
+        System.out.println("密碼解密工具");
+        System.out.println("==========================================\n");
+        
+        // 解密數據庫中的密碼
+        System.out.println("=== 解密數據庫中的密碼 ===\n");
+        
+        // 用戶 18292417675 的加密密碼
+        String encryptedPwd1 = "c7Nwx1WsDdewbab2TlkpUg==";
+        String phone1 = "18292417675";
+        System.out.println("用戶: " + phone1);
+        System.out.println("加密密碼: " + encryptedPwd1);
+        try {
+            String decryptedPwd1 = decryptPassowrd(encryptedPwd1, phone1);
+            System.out.println("原始密碼: " + decryptedPwd1);
+            
+            // 驗證：重新加密看是否匹配
+            String reEncrypted1 = encryptPassword(decryptedPwd1, phone1);
+            boolean match1 = encryptedPwd1.equals(reEncrypted1);
+            System.out.println("驗證結果: " + (match1 ? "✓ 匹配" : "✗ 不匹配"));
+            if (!match1) {
+                System.out.println("重新加密後的值: " + reEncrypted1);
+            }
+        } catch (Exception e) {
+            System.out.println("解密失敗: " + e.getMessage());
+            e.printStackTrace();
+        }
+        
+        System.out.println("\n---\n");
+        
+        // 用戶 18868590679 的加密密碼
+        String encryptedPwd2 = "33K/AXL8IVEVrI8UZUY6SQ==";
+        String phone2 = "18868590679";
+        System.out.println("用戶: " + phone2);
+        System.out.println("加密密碼: " + encryptedPwd2);
+        try {
+            String decryptedPwd2 = decryptPassowrd(encryptedPwd2, phone2);
+            System.out.println("原始密碼: " + decryptedPwd2);
+            
+            // 驗證：重新加密看是否匹配
+            String reEncrypted2 = encryptPassword(decryptedPwd2, phone2);
+            boolean match2 = encryptedPwd2.equals(reEncrypted2);
+            System.out.println("驗證結果: " + (match2 ? "✓ 匹配" : "✗ 不匹配"));
+            if (!match2) {
+                System.out.println("重新加密後的值: " + reEncrypted2);
+            }
+        } catch (Exception e) {
+            System.out.println("解密失敗: " + e.getMessage());
+            e.printStackTrace();
+        }
+        
+        System.out.println("\n==========================================");
+        System.out.println("測試：生成新密碼的加密值");
+        System.out.println("==========================================\n");
+        
+        // 測試已知密碼
+        String[] testPasswords = {"Crmeb_123456", "Test123456", "Abc123456"};
+        String testPhone = "18292417675";
+        
+        for (String testPwd : testPasswords) {
+            String encrypted = encryptPassword(testPwd, testPhone);
+            String decrypted = decryptPassowrd(encrypted, testPhone);
+            System.out.println("密碼: " + testPwd);
+            System.out.println("加密後: " + encrypted);
+            System.out.println("解密後: " + decrypted);
+            System.out.println("匹配: " + (testPwd.equals(decrypted) ? "✓" : "✗"));
+            System.out.println("---");
+        }
+        
+        System.out.println("\n==========================================");
+        System.out.println("完成！");
+        System.out.println("==========================================");
     }
 
     /**

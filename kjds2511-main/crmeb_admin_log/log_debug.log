@@ -1,0 +1,368 @@
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:12.154",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.springframework.boot.SpringApplication",
+                    "message": "Loading source class com.zbkj.admin.CrmebAdminApplication" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:12.239",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext",
+                    "message": "Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5b40ceb" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:15.747",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.e.t.TomcatServletWebServerFactory",
+                    "message": "Code archive: C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot\2.7.18\spring-boot-2.7.18.jar" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:15.749",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.e.t.TomcatServletWebServerFactory",
+                    "message": "Code archive: C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot\2.7.18\spring-boot-2.7.18.jar" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:15.749",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.e.t.TomcatServletWebServerFactory",
+                    "message": "None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:16.293",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.c.ServletWebServerApplicationContext",
+                    "message": "Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:17.482",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.ServletContextInitializerBeans",
+                    "message": "Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, filterRegistrationBean urls=[/*] order=2147483647, filterRegistrationBean urls=[/api/*] order=2147483647, filterRegistrationBean urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, corsFilter urls=[/*] order=2147483647, jwtAuthenticationTokenFilter urls=[/*] order=2147483647" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:17.483",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.ServletContextInitializerBeans",
+                    "message": "Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:17.562",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.a.m.w.servlet.WebMvcMetricsFilter",
+                    "message": "Filter 'webMvcMetricsFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:17.563",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.f.OrderedRequestContextFilter",
+                    "message": "Filter 'requestContextFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:17.564",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.springframework.web.filter.CorsFilter",
+                    "message": "Filter 'corsFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:17.564",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.f.OrderedCharacterEncodingFilter",
+                    "message": "Filter 'characterEncodingFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:17.565",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.DelegatingFilterProxyRegistrationBean$1",
+                    "message": "Filter 'springSecurityFilterChain' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:17.565",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.f.OrderedFormContentFilter",
+                    "message": "Filter 'formContentFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:25.782",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "331 mappings in 'requestMappingHandlerMapping'" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:26.213",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerAdapter",
+                    "message": "ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 2 ResponseBodyAdvice" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:26.327",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
+                    "message": "Patterns [/webjars/**, /**, /doc.html, /crmebimage/**, /uploadf/**] in 'resourceHandlerMapping'" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:26.339",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "ControllerAdvice beans: 1 @ExceptionHandler, 2 ResponseBodyAdvice" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:28.406",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.a.ApplicationAvailabilityBean",
+                    "message": "Application availability state LivenessState changed to CORRECT" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:28.411",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.a.ApplicationAvailabilityBean",
+                    "message": "Application availability state ReadinessState changed to ACCEPTING_TRAFFIC" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:31.385",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8082-exec-1",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Detected StandardServletMultipartResolver" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:31.385",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8082-exec-1",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Detected AcceptHeaderLocaleResolver" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:31.386",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8082-exec-1",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Detected FixedThemeResolver" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:31.388",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8082-exec-1",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@47959316" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:31.388",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8082-exec-1",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Detected org.springframework.web.servlet.support.SessionFlashMapManager@6903c9fb" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:31.389",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8082-exec-1",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:55.659",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.springframework.boot.SpringApplication",
+                    "message": "Loading source class com.zbkj.admin.CrmebAdminApplication" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:55.733",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext",
+                    "message": "Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3b956878" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:59.911",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.e.t.TomcatServletWebServerFactory",
+                    "message": "Code archive: C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot\2.7.18\spring-boot-2.7.18.jar" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:59.913",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.e.t.TomcatServletWebServerFactory",
+                    "message": "Code archive: C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot\2.7.18\spring-boot-2.7.18.jar" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:22:59.913",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.e.t.TomcatServletWebServerFactory",
+                    "message": "None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:00.450",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.c.ServletWebServerApplicationContext",
+                    "message": "Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:01.869",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.ServletContextInitializerBeans",
+                    "message": "Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, filterRegistrationBean urls=[/*] order=2147483647, filterRegistrationBean urls=[/api/*] order=2147483647, filterRegistrationBean urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, corsFilter urls=[/*] order=2147483647, jwtAuthenticationTokenFilter urls=[/*] order=2147483647" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:01.870",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.ServletContextInitializerBeans",
+                    "message": "Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:01.987",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.a.m.w.servlet.WebMvcMetricsFilter",
+                    "message": "Filter 'webMvcMetricsFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:01.988",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.f.OrderedRequestContextFilter",
+                    "message": "Filter 'requestContextFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:01.990",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.springframework.web.filter.CorsFilter",
+                    "message": "Filter 'corsFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:01.990",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.f.OrderedCharacterEncodingFilter",
+                    "message": "Filter 'characterEncodingFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:01.992",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.DelegatingFilterProxyRegistrationBean$1",
+                    "message": "Filter 'springSecurityFilterChain' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:01.992",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.f.OrderedFormContentFilter",
+                    "message": "Filter 'formContentFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:12.119",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "331 mappings in 'requestMappingHandlerMapping'" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:12.548",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerAdapter",
+                    "message": "ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 2 ResponseBodyAdvice" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:12.620",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
+                    "message": "Patterns [/webjars/**, /**, /doc.html, /crmebimage/**, /uploadf/**] in 'resourceHandlerMapping'" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:12.633",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "ControllerAdvice beans: 1 @ExceptionHandler, 2 ResponseBodyAdvice" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:14.621",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.a.ApplicationAvailabilityBean",
+                    "message": "Application availability state LivenessState changed to CORRECT" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:23:14.626",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.a.ApplicationAvailabilityBean",
+                    "message": "Application availability state ReadinessState changed to ACCEPTING_TRAFFIC" }
+                    

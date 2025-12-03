@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>快速登錄測試工具</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+                'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        input {
+            width: 100%;
+            height: 40px;
+            padding: 0 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        input:focus {
+            border-color: #e93323;
+            outline: none;
+        }
+        
+        button {
+            width: 100%;
+            height: 44px;
+            background: #e93323;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        button:hover {
+            background: #d6281a;
+        }
+        
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 4px;
+            display: none;
+        }
+        
+        .result.success {
+            background: #f0f9ff;
+            border: 1px solid #0ea5e9;
+            color: #0369a1;
+        }
+        
+        .result.error {
+            background: #fef2f2;
+            border: 1px solid #ef4444;
+            color: #dc2626;
+        }
+        
+        .token-display {
+            margin-top: 15px;
+            padding: 10px;
+            background: #f9fafb;
+            border-radius: 4px;
+            word-break: break-all;
+            font-size: 12px;
+            font-family: monospace;
+        }
+        
+        .info {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fff7ed;
+            border: 1px solid #fb923c;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #9a3412;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>快速登錄測試工具</h1>
+        
+        <div class="form-group">
+            <label>API 地址</label>
+            <input type="text" id="apiUrl" value="http://localhost:8080/api/front/login" placeholder="後端 API 地址">
+        </div>
+        
+        <div class="form-group">
+            <label>賬號（手機號）</label>
+            <input type="text" id="account" value="18292417675" placeholder="請輸入手機號">
+            <small style="color: #999; font-size: 12px; margin-top: 5px; display: block;">測試賬號：18292417675</small>
+        </div>
+        
+        <div class="form-group">
+            <label>密碼</label>
+            <input type="password" id="password" value="Test123456" placeholder="請輸入密碼">
+            <small style="color: #999; font-size: 12px; margin-top: 5px; display: block;">測試密碼：Test123456（已通過加密工具生成）</small>
+        </div>
+        
+        <button id="loginBtn" onclick="handleLogin()">登錄</button>
+        
+        <div id="result" class="result"></div>
+        
+        <div class="info">
+            <strong>測試賬號信息：</strong><br>
+            • 賬號：18292417675<br>
+            • 密碼：Crmeb_123456<br><br>
+            <strong>說明：</strong><br>
+            1. 登錄成功後，token 會自動保存到 LocalStorage<br>
+            2. 您可以在瀏覽器開發者工具中查看保存的 token<br>
+            3. 刷新頁面後，應用會自動使用保存的 token<br>
+            4. 詳細測試說明請查看 TEST_ACCOUNTS.md 文件
+        </div>
+    </div>
+
+    <script>
+        async function handleLogin() {
+            const apiUrl = document.getElementById('apiUrl').value;
+            const account = document.getElementById('account').value;
+            const password = document.getElementById('password').value;
+            const loginBtn = document.getElementById('loginBtn');
+            const resultDiv = document.getElementById('result');
+            
+            if (!account || !password) {
+                showResult('請填寫完整信息', 'error');
+                return;
+            }
+            
+            loginBtn.disabled = true;
+            loginBtn.textContent = '登錄中...';
+            resultDiv.style.display = 'none';
+            
+            try {
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        account: account,
+                        password: password
+                    })
+                });
+                
+                const result = await response.json();
+                
+                if (result.code === 200) {
+                    // 保存 token 和用戶信息
+                    localStorage.setItem('LOGIN_STATUS', result.data.token);
+                    if (result.data.uid) {
+                        localStorage.setItem('UID', result.data.uid);
+                    }
+                    if (result.data.userInfo) {
+                        localStorage.setItem('USER_INFO', JSON.stringify(result.data.userInfo));
+                    }
+                    
+                    showResult('登錄成功！Token 已保存到 LocalStorage', 'success', result.data.token);
+                    
+                    // 3秒後提示刷新
+                    setTimeout(() => {
+                        if (confirm('登錄成功！是否刷新頁面以應用登錄狀態？')) {
+                            location.reload();
+                        }
+                    }, 1000);
+                } else {
+                    showResult('登錄失敗：' + (result.message || '未知錯誤'), 'error');
+                }
+            } catch (error) {
+                showResult('請求失敗：' + error.message, 'error');
+            } finally {
+                loginBtn.disabled = false;
+                loginBtn.textContent = '登錄';
+            }
+        }
+        
+        function showResult(message, type, token) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.className = 'result ' + type;
+            resultDiv.style.display = 'block';
+            
+            let html = '<div>' + message + '</div>';
+            if (token) {
+                html += '<div class="token-display"><strong>Token:</strong><br>' + token + '</div>';
+            }
+            resultDiv.innerHTML = html;
+        }
+        
+        // 檢查是否已登錄
+        window.onload = function() {
+            const token = localStorage.getItem('LOGIN_STATUS');
+            if (token) {
+                const resultDiv = document.getElementById('result');
+                resultDiv.className = 'result success';
+                resultDiv.style.display = 'block';
+                resultDiv.innerHTML = '<div>檢測到已保存的 Token，您已經處於登錄狀態！</div>' +
+                    '<div class="token-display"><strong>當前 Token:</strong><br>' + token + '</div>';
+            }
+        };
+    </script>
+</body>
+</html>
+

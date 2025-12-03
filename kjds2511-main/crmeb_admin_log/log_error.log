@@ -1,0 +1,1080 @@
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:25:00.044",
+                    "level": "ERROR",
+                    "thread": "task-executor-6",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:30:00.036",
+                    "level": "ERROR",
+                    "thread": "task-executor-17",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:35:00.027",
+                    "level": "ERROR",
+                    "thread": "task-executor-8",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:40:00.026",
+                    "level": "ERROR",
+                    "thread": "task-executor-19",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:45:00.036",
+                    "level": "ERROR",
+                    "thread": "task-executor-10",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:50:00.023",
+                    "level": "ERROR",
+                    "thread": "task-executor-1",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 10:55:00.025",
+                    "level": "ERROR",
+                    "thread": "task-executor-12",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 11:00:00.031",
+                    "level": "ERROR",
+                    "thread": "task-executor-3",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 11:05:00.035",
+                    "level": "ERROR",
+                    "thread": "task-executor-14",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 11:10:00.039",
+                    "level": "ERROR",
+                    "thread": "task-executor-5",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 11:15:00.048",
+                    "level": "ERROR",
+                    "thread": "task-executor-16",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 11:20:00.030",
+                    "level": "ERROR",
+                    "thread": "task-executor-7",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 11:25:00.028",
+                    "level": "ERROR",
+                    "thread": "task-executor-18",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 11:30:00.025",
+                    "level": "ERROR",
+                    "thread": "task-executor-9",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 11:35:00.026",
+                    "level": "ERROR",
+                    "thread": "task-executor-20",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 11:40:00.026",
+                    "level": "ERROR",
+                    "thread": "task-executor-11",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 11:45:00.032",
+                    "level": "ERROR",
+                    "thread": "task-executor-2",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 11:50:00.033",
+                    "level": "ERROR",
+                    "thread": "task-executor-13",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 11:55:00.027",
+                    "level": "ERROR",
+                    "thread": "task-executor-4",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 12:00:00.026",
+                    "level": "ERROR",
+                    "thread": "task-executor-15",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 12:05:00.023",
+                    "level": "ERROR",
+                    "thread": "task-executor-6",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 12:10:00.024",
+                    "level": "ERROR",
+                    "thread": "task-executor-17",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 12:15:00.024",
+                    "level": "ERROR",
+                    "thread": "task-executor-8",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 12:20:00.024",
+                    "level": "ERROR",
+                    "thread": "task-executor-19",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 12:25:00.025",
+                    "level": "ERROR",
+                    "thread": "task-executor-10",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 12:30:00.030",
+                    "level": "ERROR",
+                    "thread": "task-executor-1",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 12:35:00.023",
+                    "level": "ERROR",
+                    "thread": "task-executor-12",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 12:40:00.029",
+                    "level": "ERROR",
+                    "thread": "task-executor-3",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 12:45:00.018",
+                    "level": "ERROR",
+                    "thread": "task-executor-14",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 12:50:00.025",
+                    "level": "ERROR",
+                    "thread": "task-executor-5",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 12:55:00.022",
+                    "level": "ERROR",
+                    "thread": "task-executor-16",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 13:00:00.022",
+                    "level": "ERROR",
+                    "thread": "task-executor-7",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 13:05:00.020",
+                    "level": "ERROR",
+                    "thread": "task-executor-18",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 13:10:00.025",
+                    "level": "ERROR",
+                    "thread": "task-executor-9",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 13:15:00.021",
+                    "level": "ERROR",
+                    "thread": "task-executor-20",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 13:20:00.601",
+                    "level": "ERROR",
+                    "thread": "task-executor-11",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 13:25:00.023",
+                    "level": "ERROR",
+                    "thread": "task-executor-2",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 13:30:00.026",
+                    "level": "ERROR",
+                    "thread": "task-executor-13",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 13:35:00.023",
+                    "level": "ERROR",
+                    "thread": "task-executor-4",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-12-03 13:40:00.021",
+                    "level": "ERROR",
+                    "thread": "task-executor-15",
+                    "class": "com.zbkj.admin.quartz.SysJobListener",
+                    "message": "任务执行失败，任务ID：20" }
+                    
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FarmerSplitCompensationTask' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:874)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at com.zbkj.common.utils.SpringUtil.getBean(SpringUtil.java:38)
+	at com.zbkj.admin.util.SpringBeanTaskUtil.invokeMethod(SpringBeanTaskUtil.java:19)
+	at com.zbkj.admin.quartz.SysJobListener.scheduleJobEventListener(SysJobListener.java:52)
+	at com.zbkj.admin.quartz.SysJobListener$$FastClassBySpringCGLIB$$709630de.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
